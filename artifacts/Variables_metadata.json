@@ -4,7 +4,68 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isActive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numberWithoutSignal256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numberWithoutSignal8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setIsActiveToTrue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setNumberWithoutSignal256",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setNumberWithoutSignal8",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +94,11 @@
 	},
 	"sources": {
 		"02-variables/contracts/variables.sol": {
-			"keccak256": "0x268486af92c0c4351a204fe424211416c94ce614ec3dbbaccfaf8ea9d373a597",
+			"keccak256": "0x23f788d4f61f27fff706f31890e68ed4fc2e791690320ab0691043051bd979bf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5383c5cee40e702e950b9b2a5c7ed9300601ebb0518d5b4e192d56c67769f26b",
-				"dweb:/ipfs/QmUnBo2xL4Ev1zQn3mtoqSyLCniu9FmFSzPaSBHzRmAzW5"
+				"bzz-raw://baf64deef29a014bdf41063d0554187ad6b89d0bc945d794e7e0c590d8e582d2",
+				"dweb:/ipfs/QmWNjVxfaZWwustU2kddTG4DaVrMtS5H8L5XwrHjfZWuaN"
 			]
 		}
 	},

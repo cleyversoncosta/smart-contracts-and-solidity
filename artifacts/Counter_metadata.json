@@ -46,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"counter/counter.sol": "Counter"
+			"contracts/01-counter/counter.sol": "Counter"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -60,7 +60,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"counter/counter.sol": {
+		"contracts/01-counter/counter.sol": {
 			"keccak256": "0xb099c7ae427e33bf0fe0bbbb0f058c6b62d502ba9c0c244e5403f28c20e8cfa2",
 			"license": "MIT",
 			"urls": [
